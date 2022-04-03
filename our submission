@@ -1,2 +1,0 @@
-
-import static java.lang.System.*;import static java.lang.Math.*;import java.util.*;public class a001{public static void main(String args[]){Scanner sc=new Scanner(in);out.println("Enter an Integer");while(sc.hasNext()==true){if(sc.hasNextInt()!=true){sc.nextLine();out.println("You Lose");break;}else{int a=sc.nextInt();out.println(a+" to the power of 1 is "+(int)pow(a, 1));}out.println("Enter an Integer");}}}
